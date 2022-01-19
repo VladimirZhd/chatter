@@ -229,3 +229,83 @@ section .form {
 .message_form .btn {
 	margin-top: -10px;
 }
+
+.messages {
+	height: calc(100vh - 200px);
+	overflow-y: auto;
+	border-bottom: 1px solid var(--color-6);
+}
+
+.message_wrapper {
+	margin-top: 5px;
+	padding: 0 5px;
+}
+
+.message_wrapper img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.message_wrapper p {
+	padding: 10px;
+	display: inline-block;
+	max-width: 50%;
+	text-align: left;
+	border-radius: 5px;
+}
+
+.message_wrapper small {
+	display: inline-block;
+	margin-top: 15px;
+	opacity: 0.8;
+}
+
+.message_wrapper.own {
+	text-align: right;
+}
+
+.me {
+	background-color: var(--color-3);
+	color: var(--color-2);
+}
+
+.friend {
+	background-color: var(--color-6);
+}
+
+.selected_user {
+	background-color: var(--color-6);
+}
+
+.truncate {
+	font-size: 14px;
+	white-space: nowrap;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.truncate strong {
+	margin-right: 10px;
+}
+
+.unread {
+	margin-left: 10px;
+	background-color: var(--color-3);
+	color: var(--color-2);
+	padding: 2px 4px;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.home_container {
+		grid-template-columns: 2fr 3fr;
+	}
+	.message_form {
+		left: 3%;
+		right: 0;
+	}
+	.message_wrapper {
+		max-width: 75%;
+	}
+}
