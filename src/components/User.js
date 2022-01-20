@@ -44,7 +44,7 @@ const User = ({ user, selectUser, loggedInUser, chat }) => {
 			</div>
 			{data && (
 				<p className='truncate'>
-					<strong>Me: </strong>
+					{data.from === loggedInUser.uid && <strong>Me: </strong>}
 					{data.text}
 				</p>
 			)}
