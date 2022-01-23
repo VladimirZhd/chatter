@@ -4,33 +4,23 @@ In this project I was trying to learn more about Firebase and it's capabilities.
 
 I always wanted to do something similar using node server and socket.io library. When I learned that I can build a chat using firebase without external libraries and backend server, I've decided to take another shot of learning firebase.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[App Demo Video](https://youtu.be/cnRNP6k0KIU)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
-
-{Describe the structure of the database that you created.}
+I used firebase/firestore in this project. With three simple collections and one sub collection to store messages. Also =, I've used firebase/storage to store images that sent through messages and avatar images.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used VS Code as IDE. For the front end work I used React.js and firebase SDK for web applications. To navigate in the SPA I used `react-router-dom` library, and to format the time I used `react-moment` library.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
--   [Web Site Name](http://url.link.goes.here)
--   [Web Site Name](http://url.link.goes.here)
+-   [Where to start with firebase](https://firebase.google.com/docs/web/setup)
+-   [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
--   Item 1
--   Item 2
--   Item 3
+-   I want to make preview for images that users are going to send
+-   Implement friend requests, so random people wouldn't message everyone
+-   Add group chats

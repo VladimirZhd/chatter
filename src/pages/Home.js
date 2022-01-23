@@ -69,7 +69,7 @@ const Home = () => {
 		const msgsRef = collection(db, 'messages', id, 'chat');
 		// query all messages and order by ascending
 		const q = query(msgsRef, orderBy('createdAt', 'asc'));
-		// savve all messages to the state
+		// save all messages to the state
 		onSnapshot(q, (querySnapshot) => {
 			let msgs = [];
 			querySnapshot.forEach((doc) => {
