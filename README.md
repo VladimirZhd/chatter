@@ -8,7 +8,7 @@ I always wanted to do something similar using node server and socket.io library.
 
 # Cloud Database
 
-I used firebase/firestore in this project. With three simple collections and one sub collection to store messages. Also =, I've used firebase/storage to store images that sent through messages and avatar images.
+I used firebase/firestore in this project. With three simple collections and one sub collection to store messages. Also, I've used firebase/storage to store images that sent through messages and avatar images.
 
 # Development Environment
 
